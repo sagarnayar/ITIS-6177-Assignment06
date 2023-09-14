@@ -46,7 +46,7 @@
     .then(function(response) {
         console.log(response);
         document.getElementById('title').value='';
-        
+        document.getElementById('title').focus();
         document.getElementById('author').value='';
         getPosts();
     })
